@@ -17,7 +17,7 @@ import jakarta.persistence.Column;
 @Table(name = "TAB_funcionarios")
 public class FuncionarioModel {
 
-    @Id@GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id@GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Column(nullable = false, length = 200)

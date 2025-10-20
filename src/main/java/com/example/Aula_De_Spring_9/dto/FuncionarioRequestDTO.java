@@ -26,6 +26,5 @@ public class FuncionarioRequestDTO {
     @NotBlank(message = "A senha é obrigatória")
     @Size(min = 3, message = "A senha deve ter no mínimo 3 caracteres")
     @Size(max = 200, message = "A Senha  deve ter no máximo 200 caracteres")
-    @Pattern(regexp = "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{3,}$", message = "A senha deve conter pelo menos uma letra e um número")
     private String senha;
 }
