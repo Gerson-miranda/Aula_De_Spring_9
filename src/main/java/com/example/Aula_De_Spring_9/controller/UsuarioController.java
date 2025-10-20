@@ -45,9 +45,4 @@ public class UsuarioController {
 
         return ResponseEntity.created(Location).body(Map.of("mensagem", "Usuário cadastrado com sucesso"));
     }
-
-    
-
-
-
 }
